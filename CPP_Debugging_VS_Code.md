@@ -11,7 +11,7 @@ This guide is more useful than the basic guide officially provided by Microsoft 
 
 
 ### First setup CMake build process.
-Create a `CMakePresets.json` file which can be obtained for example from here [https://github.com/matheusgomes28/cpp-cmake-vscode-example/blob/main/CMakePresets.json](https://github.com/matheusgomes28/cpp-cmake-vscode-example/blob/main/CMakePresets.json) 
+Create within your project working directory aka your VS code `workspaceFolder`a `CMakePresets.json` file  which can be obtained for example from here [https://github.com/matheusgomes28/cpp-cmake-vscode-example/blob/main/CMakePresets.json](https://github.com/matheusgomes28/cpp-cmake-vscode-example/blob/main/CMakePresets.json) 
 
 Next in VS code open Command Pallete (`Ctrl+Shift+P`) and type `CMake:Add Configure Preset` -> `Create from Compiler` -> `GCC x.x.x x86...` --> Give name e.g `GCC`
 
