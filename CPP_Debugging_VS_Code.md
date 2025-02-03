@@ -74,3 +74,28 @@ Run `CMake: Build` from Command Pallete (`Ctrl+Shift+P`) with the main file
 Make sure to correctly specify the ` "program"` which can be seen in `Output` of `CMake/Build` tab in bottom panel of VS Code next to `Terminal` 
 
 You are ready to debug! Open the `main.cpp` you want to debug and next open Run and Debug menu from side(Ctrl+Shift+D) and click on `Play` icon or press `F5` to start debugging
+
+
+# Resources
+[VS Code official guide Get started with CMake Tools on Linux](https://code.visualstudio.com/docs/cpp/cmake-linux#_create-a-cmake-hello-world-project)
+
+[Configure and build with CMake Presets in Visual Studio Code](https://github.com/microsoft/vscode-cmake-tools/blob/HEAD/docs/cmake-presets.md)
+
+[Configure CMake Tools settings ](https://github.com/microsoft/vscode-cmake-tools/blob/078d737b867a45f8b0de05f61e748171def4e5b7/docs/cmake-settings.md)
+
+[CMake: Debug and launch](https://github.com/microsoft/vscode-cmake-tools/blob/078d737b867a45f8b0de05f61e748171def4e5b7/docs/debug-launch.md)
+
+[CMake Debugging](https://github.com/microsoft/vscode-cmake-tools/blob/078d737b867a45f8b0de05f61e748171def4e5b7/docs/debug.md)
+
+[Frequently asked questions — CMake Tools 1.4.0 documentation](https://github.com/microsoft/vscode-cmake-tools/blob/078d737b867a45f8b0de05f61e748171def4e5b7/docs/faq.md)
+
+[How To CMake Tools FAQ](https://github.com/microsoft/vscode-cmake-tools/blob/078d737b867a45f8b0de05f61e748171def4e5b7/docs/how-to.md)
+
+[Cmake Generators e.g Unix Makefiles MSVC etc](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html)
+
+[Platfor Selection e.g x86 ARM ARM64](https://cmake.org/cmake/help/latest/generator/Visual%20Studio%2016%202019.html#platform-selection)
+
+
+[Example `CMakePresets.json` file](https://github.com/esweet431/box2d-lite/blob/vs-launch/CMakePresets.json)
+
+
