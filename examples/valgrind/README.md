@@ -9,12 +9,16 @@ User Manual with quick start guide: [Valgrind Documentation](https://valgrind.or
 
 
 Homepage: Valgrind: [About Valgrind](https://valgrind.org/info/)
-
+## Installation
+On Ubuntu the tools `valgrind` and `kcachegrind` can be easily installed with
+```bash
+sudo apt install valgrind kcachegrind
+```
 >Note:
 Valgrind uses a virtual cpu to emulate on real cpu. This can lead to significant slowdown and might not be always reasonable to use whe working on large programs.
 
 ## Example
-```
+```bash
 # Simple usage example
 # Write and compile your program as usual
 # e.g g++ main.cpp # this will output ./a.out
