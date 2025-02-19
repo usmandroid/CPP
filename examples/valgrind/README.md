@@ -16,7 +16,10 @@ sudo apt install valgrind kcachegrind
 ```
 >Note:
 Valgrind uses a virtual cpu to emulate on real cpu. This can lead to significant slowdown and might not be always reasonable to use whe working on large programs.
-
+## Usage
+ ```bash
+valgrind [valgrind-options] your-prog [your-prog-options]
+```
 ## Example
 ```bash
 # Simple usage example
@@ -32,7 +35,9 @@ valgrind ./a.out # Runs with default tool memcheck
 valgrind ./a.out --tool=memcheck 
 
 # Memory sanitizer tool
-valgrind --track-origin=yes ./a.out
+valgrind --track-origins=yes ./a.out
+# Alternatively you can run like this
+ valgrind --memcheck:track-origins=yes ./a.out
 
 # Callgrind tool
 valgrind --tool=callgrind ./a.out
